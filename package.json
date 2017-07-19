@@ -1,0 +1,25 @@
+{
+  "name": "babel-async-demo",
+  "version": "1.0.0",
+  "description": "Reproduce my transpilation error",
+  "main": "./dist/index.js",
+  "scripts": {
+    "build": "babel src/ -d dist/",
+    "test": "node test.js",
+    "pretest": "npm run build"
+  },
+  "keywords": [
+    "demo"
+  ],
+  "author": {
+    "name": "Luke Albao",
+    "email": "lukealbao@gmail.com"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-plugin-transform-regenerator": "^6.24.1",
+    "babel-polyfill": "^6.23.0",
+    "babel-preset-env": "^1.6.0"
+  }
+}
