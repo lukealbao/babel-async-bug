@@ -1,5 +1,5 @@
-# Babeljs Issue: Cannot export an async function
-You can clone this repo to reproduce Babel#foo
+# Babeljs Issue #5977: Cannot export an async function
+You can clone this repo to reproduce [Babel#5977](https://github.com/babel/babel/issues/5977).
 
 ## The Goal
 Write a module whose only export is an async function.
